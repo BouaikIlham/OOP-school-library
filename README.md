@@ -1,15 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# OOP school library
 
-> Description the project.
+> In this project, I start building my school library app. In this initial step, I implement the classes to represent students and teachers.Also in this project, I use the Decorator design pattern to correct the names of people.
+
+
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- ruby
+- Linters
+- Design pattern
 
 ## Live Demo (if available)
 
@@ -17,40 +19,14 @@
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+git clone git@github.com:BouaikIlham/OOP-school-library.git
 
 ## Authors
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+ **Ilham Bouaik**
+ - GitHub : [@bouaik ilham](https://github.com/BouaikIlham)
+ - Twitter: [@IlhamBouaik](https://twitter.com/IlhamBouaik)
+ - LinkedIn: [@BouaikIlham](https://www.linkedin.com/in/bouaik-ilham-478478230/) 
 
 ## 🤝 Contributing
 
@@ -71,3 +47,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
