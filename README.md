@@ -2,13 +2,16 @@
 
 # OOP school library
 
-> In this project, I start building my school library app. In this initial step, I implement the classes to represent students and teachers.
+> In this project, I start building my school library app. In this initial step, I implement the classes to represent students and teachers.Also in this project, I use the Decorator design pattern to correct the names of people.
+
+
 
 
 ## Built With
 
 - ruby
 - Linters
+- Design pattern
 
 ## Live Demo (if available)
 
