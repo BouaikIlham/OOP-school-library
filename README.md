@@ -2,7 +2,7 @@
 
 # OOP school library
 
-> In this project, I start building my school library app. In this initial step, I implement the classes to represent students and teachers.Also in this project, I use the Decorator design pattern to correct the names of people.
+> In this project I am going to finish creating the remaining classes for our school library and create the associations between them.
 
 
 
@@ -47,4 +47,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-
