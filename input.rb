@@ -2,6 +2,7 @@ require_relative 'app'
 
 class Input < App
   def initialize
+    super()
     @app = App.new
   end
 

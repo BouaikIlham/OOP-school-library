@@ -2,10 +2,7 @@
 
 # OOP school library
 
-> In this project I am going to finish creating the remaining classes for our school library and create the associations between them.
-
-
-
+> In this project, We use our newly acquired knowledge and refactor your previous code.
 
 ## Built With
 
@@ -17,16 +14,23 @@
 
 [Live Demo Link](https://livedemo.com)
 
-
 ## Getting Started
+
 git clone git@github.com:BouaikIlham/OOP-school-library.git
 
 ## Authors
 
- **Ilham Bouaik**
- - GitHub : [@bouaik ilham](https://github.com/BouaikIlham)
- - Twitter: [@IlhamBouaik](https://twitter.com/IlhamBouaik)
- - LinkedIn: [@BouaikIlham](https://www.linkedin.com/in/bouaik-ilham-478478230/) 
+👤 **Ilham Bouaik**
+
+- GitHub : [@bouaik ilham](https://github.com/BouaikIlham)
+- Twitter: [@IlhamBouaik](https://twitter.com/IlhamBouaik)
+- LinkedIn: [@BouaikIlham](https://www.linkedin.com/in/bouaik-ilham-478478230/)
+
+👤 **Joseph Kwesi Kwentsir**
+
+- [GitHub](https://github.com/Kwentsir)
+- [Twitter](https://twitter.com/jkwentsir)
+- [LinkedIn](https://www.linkedin.com/in/josephkwentsir/)
 
 ## 🤝 Contributing
 
