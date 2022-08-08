@@ -4,12 +4,14 @@ require './teacher'
 require './rental'
 
 class App
-  attr_accessor  :people, :rentals, :books
-    def initialize
-      @books = []
-      @people = []
-      @rentals = []
-    end
+  attr_accessor :people, :rentals, :books
+
+  def initialize
+    @books = []
+    @people = []
+    @rentals = []
+  end
+
   def list_all_books(books)
     if books.empty?
       puts 'No book found!'
