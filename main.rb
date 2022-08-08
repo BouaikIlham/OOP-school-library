@@ -1,7 +1,7 @@
-require './input'
+require_relative 'input'
 
 def main
-  puts Input.new.run
+  puts Input.new.main_menu
 end
 
 main
