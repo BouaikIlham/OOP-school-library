@@ -1,6 +1,6 @@
 require_relative 'app'
 
-class Input
+class Input < App
   def initialize
     @app = App.new
   end
@@ -9,8 +9,7 @@ class Input
     books = []
     people = []
     rentals = []
-
-    selection(books, people, rentals)
+    @selection = selection(books, people, rentals)
   end
 
   def main_menu
