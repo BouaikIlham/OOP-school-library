@@ -2,14 +2,16 @@ require './book'
 require './student'
 require './teacher'
 require './rental'
+require './save_data'
 
-class App
+class App < SaveData
   attr_accessor :people, :rentals, :books
 
   def initialize
     @books = []
     @people = []
     @rentals = []
+    super()
   end
 
   def list_all_books(books)
@@ -85,6 +87,4 @@ class App
       puts "Date: #{rental.date}, Book: #{rental.book.title} by #{rental.book.author}" if rental.person.id == person_id
     end
   end
-
-  
 end
