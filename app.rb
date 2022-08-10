@@ -85,4 +85,6 @@ class App
       puts "Date: #{rental.date}, Book: #{rental.book.title} by #{rental.book.author}" if rental.person.id == person_id
     end
   end
+
+  
 end

@@ -1,6 +1,6 @@
-require_relative 'input'
+require_relative 'app'
 require 'json'
-class SaveData < Input
+class SaveData < App
   def initialize
     super()
     load_data
@@ -28,6 +28,17 @@ class SaveData < Input
         else
           persons.push(Teacher.new(person['specialization'], person['Age'], person['Name']))
         end
+      end
+    end
+  end
+
+  def load_rentals
+    if File.empty?('rentals.json') || !File.exists?('rentals.json')
+      puts 'List is empty'
+    else
+      rentals = JSON.parse(File.read('rentals.json'))
+      rentals.each do |rent|
+        @rentals.push(Rental.new(rent['date'], @books.select { |book| book.title == rent ['Book']}[0], @ persons.select { |person| person.name == rent['Name']}[0]))
       end
     end
   end
