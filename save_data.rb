@@ -15,9 +15,7 @@ class SaveData
         @books.push(Book.new['Title'], book['Author'])
       end
     end
-
     File.write('books.json', JSON.generate(books))
-
     if File.empty?('person.json')
       puts 'List is empty'
     else
